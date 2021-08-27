@@ -3,7 +3,6 @@ import smtplib
 gmail_user = 'ashish.mrya@gmail.com'
 gmail_password = '...'
 
-
 sent_from = "ashish.mrya@gmail.com"
 to = ['ashish.mrya@gmail.com']
 subject = 'OMG Super Important Message'
