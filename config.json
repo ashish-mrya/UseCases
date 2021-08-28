@@ -6,12 +6,14 @@
   "googleSheetDetails": {
     "authenticationKey": "",
     "workbookName": "Send Email",
-    "sheetName": "sheet1"
+    "sheetName": "sheet1",
+    "editColumn": "Status",
+    "": ""
   },
   "emailDetails":{
     "from": "ashish.mrya@gmail.com",
     "to": "ashish.mrya@gmail.com",
     "subject":"subject from the JSON file",
-      "attachmentsPath":["file1.pdf","file2.pdf"]
+    "attachmentsPath":["file1.pdf","file2.pdf"]
   }
 }
