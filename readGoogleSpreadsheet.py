@@ -28,6 +28,7 @@ sheet_instance = sheet.get_worksheet(0)
 
 sheet1 = client.open('Send Email').sheet1
 
+sheet1.row_count
 #Get the complete data
 data = sheet1.get_all_values()
 
@@ -44,6 +45,8 @@ for row_id in range(len(data)):
         sheet1.update_cell(row_id+1, col_update_no, "As Hell missing")
         print(f"{row_id},{col_update_no}")
         print("Missing")
+
+
 
 
 

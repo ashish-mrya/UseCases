@@ -1,0 +1,17 @@
+{
+  "sendersEmailDetails": {
+    "username": "ashish.mrya@gmail.com",
+    "password": "icesamsungice"
+  },
+  "googleSheetDetails": {
+    "authenticationKey": "",
+    "workbookName": "Send Email",
+    "sheetName": "sheet1"
+  },
+  "emailDetails":{
+    "from": "ashish.mrya@gmail.com",
+    "to": "ashish.mrya@gmail.com",
+    "subject":"subject from the JSON file",
+      "attachmentsPath":["file1.pdf","file2.pdf"]
+  }
+}
